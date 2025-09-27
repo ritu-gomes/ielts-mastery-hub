@@ -2,6 +2,10 @@
 
 A clean and responsive homepage for an IELTS preparation platform, built with React, Vite, Tailwind CSS, and DaisyUI, featuring a red and blue color scheme.
 
+Live Demo
+
+[Check out the live site: IELTS Mastery Hub on Netlify](https://ielts-mastery-hub.netlify.app/)
+
 ## Setup Instructions
 
 1. **Clone the repository**:

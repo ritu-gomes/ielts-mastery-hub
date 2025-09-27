@@ -1,21 +1,36 @@
-<<<<<<< HEAD
-# ielts-mastery-hub
-a fictional ielts-institute-app developed using react, tailwind and daisyui
-=======
-# React + Vite
+# IELTS Mastery Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive homepage for an IELTS preparation platform, built with React, Vite, Tailwind CSS, and DaisyUI, featuring a red and blue color scheme.
 
-Currently, two official plugins are available:
+## Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/ielts-mastery-hub.git
+   ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd ielts-mastery-hub
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:5173` in your browser.
+5. **Build for production** (optional):
+   ```bash
+   npm run build
+   ```
 
-## React Compiler
+**Prerequisites**: Node.js (v16+) and npm (v7+) installed on your Windows machine.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Design Choices
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 3b0c17d (Initial commit: Add IELTS Mastery Hub project files)
+- **Red & Blue Theme**: Used red and blue accents for a vibrant, professional look, aligning with the project's branding.
+- **Tailwind CSS & DaisyUI**: Leveraged utility-first styling and pre-built components for rapid development and consistent, responsive design.
+- **Component-Based Structure**: Modular React components (Navbar, Features, Testimonials, Footer) ensure maintainability and scalability.
+- **Responsive Layout**: Optimized for mobile and desktop with Tailwind's responsive utilities and DaisyUI's adaptive components.
